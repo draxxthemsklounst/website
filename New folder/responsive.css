@@ -1,0 +1,123 @@
+#nav-bar li{
+		color: black;
+		display: block;
+		border: 1px solid white;
+		padding: 3px;
+	}
+#nav-bar li:hover {
+		background-color: lightblue;
+	}
+
+#title {
+	font-family: Trebuchet MS;
+	background-color: #cf4444
+	
+}
+#left-navigation form {
+	padding-left: 2px;
+	padding-right: 2px;
+	text-align: center;
+	background-color
+}
+#left-navigation input {
+	width: 75%;
+}
+#left-navigation button {
+	width: 20%;
+}
+
+.login-search {
+	margin: 0 auto;
+	padding-left: 0 px;
+	background-color: pink;
+	display: inline;
+}
+
+.group-list {
+	margin-left: 3px;
+	margin-right: 3px;
+	overflow: hidden;
+}
+.post {
+	margin: 0;
+	margin-bottom: 8px;
+	padding-left: 5px;
+	border-bottom: 1px solid black;
+	
+}
+img {
+	max-width: 100%;
+}
+div.post img {
+	float: left;
+}
+#ads img{
+	padding-bottom: 10px;
+}
+#content-right {
+	background-color:#93C54B;
+}
+div.post-details {
+	padding-left: 110px;
+}
+@media all and (min-width: 768px) {
+	body {
+		font-family: sans-serif;
+	}	
+
+	#content {
+		clear: both;
+	}
+	
+	#content-left {
+		background: pink;
+		float: left;
+		width: 85%;
+		clear: left;
+	}
+	#content-right {
+		float: right;
+		width: 15%;
+		display: inline;
+		text-align: center;
+		clear: right;
+	}
+	#footer {
+		background: cyan;
+		clear: both;
+	}
+
+	#left-navigation {
+		background-color: #cfaa44;
+		float: left;
+		clear: left;
+		width: 300px;
+		display: block;
+		
+	}
+	#left-navigation h1{
+		text-align: center;
+	}
+	#feed {
+		margin-left: 300px;
+		padding-left: 10px;
+		display: block;
+	}
+	#page-name {
+		text-align: center;
+		border: 2px solid;
+		background-color: #93C54B;
+	}
+	#nav-bar li{
+		display: inline;
+	}
+	#nav-bar {
+		padding-left: 0px;
+	}
+	#login{
+		text-align: center;
+	}
+	
+	
+	
+}
