@@ -13,6 +13,9 @@
 	background-color: #cf4444
 	
 }
+#content-left {
+	background: pink;
+}
 #left-navigation form {
 	padding-left: 2px;
 	padding-right: 2px;
@@ -40,16 +43,51 @@
 }
 .post {
 	margin: 0;
-	margin-bottom: 8px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
 	padding-left: 5px;
 	border-bottom: 1px solid black;
-	
+	overflow: auto;
+}
+.post p {
+	display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+#upvote {
+	background: pink;
 }
 img {
 	max-width: 100%;
+	max-height: 100%;
 }
 div.post img {
 	float: left;
+	display: block;
+}
+
+div.post-info {
+	float:left;
+	display: block;
+	width: 100px;
+	height: auto;
+}
+div.post-thumb-date p{
+	margin:0px;
+	width: 100px;
+}
+#vote {
+	padding-top: 3px;
+	padding-right: 3px;
+}
+#vote-number {
+	display: inline;
+}
+
+.post-info p{
+	margin: 0px;
 }
 #ads img{
 	padding-bottom: 10px;
@@ -58,7 +96,19 @@ div.post img {
 	background-color:#93C54B;
 }
 div.post-details {
-	padding-left: 110px;
+	
+	overflow: auto;
+	height: auto;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+div.post-details p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+div.post-details h3 {
+	margin-top:0px;
+	margin-bottom: 5px;
 }
 @media all and (min-width: 768px) {
 	body {
@@ -70,7 +120,7 @@ div.post-details {
 	}
 	
 	#content-left {
-		background: pink;
+		
 		float: left;
 		width: 85%;
 		clear: left;
@@ -107,6 +157,7 @@ div.post-details {
 		text-align: center;
 		border: 2px solid;
 		background-color: #93C54B;
+		margin-right: 5px;
 	}
 	#nav-bar li{
 		display: inline;
